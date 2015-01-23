@@ -21,7 +21,7 @@ echo "ro.product.brand=$PRODUCT_BRAND"
 echo "ro.product.name=$PRODUCT_NAME"
 echo "ro.product.device=$TARGET_DEVICE"
 echo "ro.product.board=$TARGET_BOOTLOADER_BOARD_NAME"
-
+echo "persist.radio.multisim.config=dsds"
 # These values are deprecated, use "ro.product.cpu.abilist"
 # instead (see below).
 echo "# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,"
